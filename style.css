@@ -1,0 +1,52 @@
+#gradient-top{
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100vw;
+  height: 200px;
+}
+
+#gradient-bottom{
+  position: fixed;
+  z-index: 100;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100vw;
+  height: 200px;
+}
+
+div.text-box{
+  padding-top: 20em;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+div.text-box p{
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  line-height: 4rem;
+}
+
+/*only Safari*/
+p.subhead::first-letter{
+  -webkit-initial-letter: 3;
+        initial-letter: 3;
+  color: pink;
+  font-weight: bold;
+  margin-right: .75em;
+}
+
+/*all browsers*/
+
+.firstcharacter {
+  color: pink;
+  float: left;
+  font-size: 126px;
+  line-height: 7rem;
+  padding-top: 13px;
+  padding-right: 20px;
+  margin-left: -3px;
+}
